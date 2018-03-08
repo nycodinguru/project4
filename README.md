@@ -15,6 +15,10 @@
 After arriving on the landing page an anonymous user is able to browse the products on the site. However it isn't until they've created an account and logged that they start adding items to their cart. 
 
 ### Wireframes
+![alt text](https://i.imgur.com/GH03WD2.jpg)
+![alt text](https://i.imgur.com/N74O3xX.jpg)
+![alt text](https://i.imgur.com/9QHb8Xv.jpg)
+![alt text](https://i.imgur.com/COHk48I.jpg)
 
 ### Technologies
 
@@ -26,11 +30,11 @@ After arriving on the landing page an anonymous user is able to browse the produ
 
 ### Timeline
 
-- 3/9/18 - 
-- 3/10/18 - 
-- 3/11/18 - 
-- 3/12/18 - 
-- 3/13/18 -
-- 3/14/18 - 
-- 3/15/18 - 
+- 3/9/18 - Building the db structure + data
+- 3/10/18 - Building React.js (routes) front-end and Rails back-end (routes, controllers, models)
+- 3/11/18 - Creating Views
+- 3/12/18 - Intergrating Auth
+- 3/13/18 - Intergrating Shopping Cart Feature
+- 3/14/18 - Styling/CSS + bug testing
+- 3/15/18 - Fixing bugs
 - 3/16/18 - Present completed MVP @ GA Science Fair
