@@ -12,13 +12,23 @@
 
 ### User Story
 
-After arriving on the landing page an anonymous user is able to browse the products on the site. However it isn't until they've created an account and logged that they start adding items to their cart. 
+After arriving on the landing page an anonymous user is only able to browse the products on the site. 
+#### Account Creation
+However upon creating an account and logging in they are able to add items to their cart.  Creating an account requires information about the user to be collected in a form which is then sent to the server to be stored in the database. However the password is not stored, only its one-way hash. 
+
+#### Shopping Cart Management
+Adding items to a cart involves posting items to an individual user's Shopping Cart table. This is initiated after the add to cart button is pushed. Items sit in this table until they are either paid for or removed. If the items are paid for a new table will be created for a new order belonging to the shopping cart table, and the items availability status will toggle from true to false.
+
+### Database Structure
+
+![alt text](https://i.imgur.com/UiFE0CDl.png)
 
 ### Wireframes
-![alt text](https://i.imgur.com/GH03WD2.jpg)
-![alt text](https://i.imgur.com/N74O3xX.jpg)
-![alt text](https://i.imgur.com/9QHb8Xv.jpg)
-![alt text](https://i.imgur.com/COHk48I.jpg)
+
+![alt text](https://i.imgur.com/GH03WD2m.jpg)
+![alt text](https://i.imgur.com/N74O3xXm.jpg)
+![alt text](https://i.imgur.com/9QHb8Xvm.jpg)
+![alt text](https://i.imgur.com/COHk48Im.jpg)
 
 ### Technologies
 
@@ -30,7 +40,7 @@ After arriving on the landing page an anonymous user is able to browse the produ
 
 ### Timeline
 
-- 3/9/18 - Building the db structure + data
+- 3/9/18 - Building the db structure + seed data
 - 3/10/18 - Building React.js (routes) front-end and Rails back-end (routes, controllers, models)
 - 3/11/18 - Creating Views
 - 3/12/18 - Intergrating Auth
